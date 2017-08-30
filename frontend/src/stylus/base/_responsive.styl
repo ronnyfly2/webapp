@@ -1,0 +1,58 @@
+@media only screen and (max-width: 1199px)
+	.item_empty
+		display none
+@media only screen and (max-width: 1130px)
+	.box_center
+		nav
+			width 75%
+			min-width 220px
+			a
+				span
+					display none
+				.icon
+					font-size 34px
+			li
+				margin 0 20px
+
+@media only screen and (max-width: 870px)
+	.el-tabs__item
+		span
+			display none
+@media only screen and (max-width: 675px)
+	header
+		.icon-menu
+			display block
+			position absolute
+			z-index 3
+			top 36px
+			font-size 31px
+			color #199fd8
+			right 10px
+			background white
+			line-height 1
+			height 40px
+			padding-top 5px
+			text-align center
+			width 40px
+			&.open
+				right 230px
+				box-shadow -3px 0px 3px #c5c5c5
+	.box_center
+		overflow hidden
+		nav
+			position absolute
+			right -245px
+			height 100vh
+			background white
+			top 0
+			width 80%
+			max-width 230px
+			box-shadow 1px 3px 11px rgba(0,0,0,.4)
+			&.open
+				right 0
+			li
+				width 100%
+				margin 0
+			a
+				span
+					display block
